@@ -32,10 +32,10 @@ flowchart LR
   V --> O["Chat report + optional chart link"]
 ```
 
-## [`$fortune-liuyao`](skill/fortune-liuyao/SKILL.md) 怎么使用？
-Chart Preview
+## [`$fortune-liuyao`](skill/fortune-liuyao/SKILL.md) Chart Preview
 The image below is the standalone chart preview bundled with the upstream Skill. It demonstrates
 the chart presentation target and is not presented as evidence of a live Nexent instance run.
+<img width="1440" height="1661" alt="image" src="https://github.com/user-attachments/assets/800f043e-8971-408a-ba6f-44a43d1955ec" />
 
 Fortune Liuyao standalone chart preview
 安装并启用 Agent 后，直接在下一条消息里用自然语言触发，不需要手动运行排盘脚本。例如：
