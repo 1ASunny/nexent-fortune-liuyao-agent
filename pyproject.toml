@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexent-fortune-liuyao-agent"
+version = "0.1.0"
+description = "Demo design for a Nexent Agent powered by the deterministic Fortune Liuyao Skill."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "fastmcp>=2.0,<3",
+]
+
+[project.scripts]
+fortune-liuyao-mcp = "tools.mcp_server:main"
+
+[tool.setuptools]
+packages = ["tools"]
